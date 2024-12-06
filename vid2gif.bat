@@ -1,6 +1,6 @@
 @echo off
 if "%~1"=="" (
-    echo Usage: gifconvert input.mp4 scale
+    echo Usage: vid2gif input.mp4 scale
     exit /b
 )
 set input=%1
